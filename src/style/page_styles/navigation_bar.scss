@@ -1,0 +1,56 @@
+.navigation_buttons{
+    background-image: url(../../static/assets/logos/background.jpg);
+    display: grid;
+    grid-template-columns: .2fr 1fr .4fr;
+    padding: 5px 5px 0 5px;
+}
+
+.left_header{
+    display: flex;
+    align-items: center;
+}
+.left_header img{
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    padding-top: 1px;
+}
+.center_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.center_header a{
+    @include header_text();
+}
+
+.right_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.slogan{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.right_header_img img{
+    width: 25px;
+    padding: 4px 0 4px 0;
+}
+.right_header_eco h6{
+    color: $off_white;
+    font-size: 1.2rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_us_button a{
+    @include header_text();
+}
+

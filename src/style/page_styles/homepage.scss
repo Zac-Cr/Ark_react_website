@@ -1,0 +1,36 @@
+h1{
+    @include Page_header();
+}
+h2{
+    @include Sub_heading();
+}
+h3{
+    @include Main_heading();
+}
+p{
+    @include P_tag();
+}
+.homepage_container{
+    @include body();
+}
+.middle_column{
+    @include middle_column();
+}
+
+.before_after{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.slideshow_container{
+    grid-column: 2;
+    width: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.contact_us_link a{
+    text-decoration: none;
+    color: black;
+}

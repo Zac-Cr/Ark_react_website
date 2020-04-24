@@ -1,0 +1,14 @@
+@import'./style_shortcuts/variable.scss';
+@import'./style_shortcuts/mixins.scss';
+@import './page_styles/navigation_bar.scss';
+@import'./page_styles/homepage.scss';
+@import'./page_styles/feature.scss';
+@import'./page_styles/footer.scss';
+@import'./page_styles/ecoraster.scss';
+@import'./page_styles/about.scss';
+@import'./page_styles/contact.scss';
+@import'./page_styles/finished_proj.scss';
+
+body{
+    margin: 0;
+}

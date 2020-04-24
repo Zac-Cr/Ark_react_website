@@ -1,0 +1,72 @@
+@mixin body {
+    display: grid;
+    grid-template-columns: .2fr 1fr .2fr;
+    background-color: $off_white;
+}
+
+@mixin middle_column {
+    grid-column: 2;
+    box-shadow: 2px 0px 24px 9px rgba(0,0,0,0.35);    
+}
+@mixin header_text {
+    color: #cecccc;
+    text-decoration: none;
+    font-size: 1.8rem;    
+}
+
+@mixin Page_header {
+    font-size: 3.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@mixin Main_heading {
+    font-size: 2.5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+@mixin Sub_heading {
+    font-size: 1.8rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+}
+
+@mixin P_tag {
+    padding: 20px 45px 0 45px;
+    font-size: 1.5rem;
+}
+
+@mixin list_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+@mixin list_item{
+    font-size: 1.3rem;
+    margin: auto;
+}
+
+@mixin name_card{
+    display: flex;
+    margin: 0;
+    p{
+        padding-top: 17px;
+    }
+}
+
+@mixin contact{
+    padding: 30px 0 15px 0;
+    p{
+        padding-top: 30px;
+        margin: 0;
+    }
+    h3{
+        padding-left: 45px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,31 @@
+.contact_text{
+    @include middle_column();
+    display: grid;
+    grid-template-columns: 2fr repeat(4, .15fr);
+}
+
+.redstripe{
+    background-color: $race_red;
+}
+.blackstripe{
+    background-color: black;
+    grid-column: 4;
+}
+
+.contact_infor_wrapper{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact_infor_wrapper h3{
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.contact{
+    @include contact();
+}
+.name{
+    @include name_card();
+}

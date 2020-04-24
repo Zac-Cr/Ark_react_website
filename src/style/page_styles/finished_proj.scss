@@ -1,0 +1,9 @@
+h4{
+    @include Main_heading();
+}
+p{
+    @include P_tag();
+}
+.image-gallery{
+    padding-top: 25px;
+}
