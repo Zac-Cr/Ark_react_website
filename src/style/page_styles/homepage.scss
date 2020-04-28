@@ -1,22 +1,3 @@
-h1{
-    @include Page_header();
-}
-h2{
-    @include Sub_heading();
-}
-h3{
-    @include Main_heading();
-}
-p{
-    @include P_tag();
-}
-.homepage_container{
-    @include body();
-}
-.middle_column{
-    @include middle_column();
-}
-
 .before_after{
     display: flex;
     flex-direction: row;

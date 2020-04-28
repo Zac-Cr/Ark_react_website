@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function(){
     return(
-        <div class="body_container">
+        <div class="page_container">
             <div class="middle_column">
                 <h1>About Us</h1>
                 <p>We are a rubber paving business that has been in the South East Idaho region, providing an Eco-Friendly solution using tried and true methods that have been developed through customer service and hard work. 

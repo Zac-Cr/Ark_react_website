@@ -5,10 +5,29 @@
 @import'./page_styles/feature.scss';
 @import'./page_styles/footer.scss';
 @import'./page_styles/ecoraster.scss';
-@import'./page_styles/about.scss';
 @import'./page_styles/contact.scss';
 @import'./page_styles/finished_proj.scss';
 
 body{
     margin: 0;
+}
+h1{
+    @include Page_header();
+}
+h2{
+    @include Sub_heading();
+}
+h3{
+    @include Main_heading();
+}
+p{
+    @include P_tag();
+}
+
+.page_container{
+    @include body();
+}
+
+.middle_column{
+    @include middle_column();
 }

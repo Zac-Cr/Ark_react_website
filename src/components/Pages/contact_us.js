@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function(){
     return(
-        <div class="body_container">
+        <div class="page_container">
             <div class="contact_text">
                 <div className="text_container">
                     <div class="contact_us_header">

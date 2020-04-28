@@ -3,7 +3,7 @@ import Slideshow from '../features/slideshow';
 import { NavLink } from 'react-router-dom';
 export default function(){
     return(
-        <div className="homepage_container">
+        <div className="page_container">
             <div className="middle_column">
                 <h1>Ark Rubber Paving</h1>
                 <div className="intro">

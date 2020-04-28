@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import Logo from '../../../static/assets/logos/logo_white.png';
 import Leaf from '../../../static/assets/logos/leaf_white.png';
+import Dropdown from '../features/dropdown';
 export default class NavigationContainer extends Component{
     constructor(){
         super();
     }
-
     render(){
         return(
             <div className="navigation_buttons">
@@ -19,6 +19,7 @@ export default class NavigationContainer extends Component{
                     {/* <button>Products</button> */}
                     <NavLink to="/finished-projects">Finished Projects</NavLink>
                     <NavLink to="/about-us">About Us</NavLink>
+                    <NavLink to="/contact-us">Contact Us</NavLink>
                 </div>
                 <div className="right_header">
                     <div className="slogan">
@@ -29,12 +30,11 @@ export default class NavigationContainer extends Component{
                             <h6>Your Eco-friendly Paving Solution</h6>
                         </div>
                     </div>
-                    <div className="contact_us_button">
-                        <NavLink to="/contact-us">Contact Us</NavLink>
-                    </div>
+                </div>
+                <div className="dropdown">
+                    <Dropdown/>
                 </div>
             </div>
         )
     }
-
 }

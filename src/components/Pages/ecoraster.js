@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 export default function(){
     return(
-        <div class="body_wrapper">
-            <div class="eco_raster_body">
+        <div class="page_container">
+            <div class="middle_column">
                 <div class="what_is_ecoraster">
                     <h1>What is Eco-Raster?</h1>
                 </div>

@@ -4,7 +4,7 @@ import Walway from '../features/walkway_slideshow';
 
 export default function(){
     return(
-        <div class="body_container">
+        <div class="page_container">
             <div class="middle_column">
                 <h1>Finished Projects</h1>
                 <div class="trailer_proj">

@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: .2fr 1fr .2fr;
     background-color: $off_white;
+    @media(max-width:$mobile) {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 @mixin middle_column {
@@ -9,9 +13,12 @@
     box-shadow: 2px 0px 24px 9px rgba(0,0,0,0.35);    
 }
 @mixin header_text {
-    color: #cecccc;
+    color: $off_white;
     text-decoration: none;
-    font-size: 1.8rem;    
+    font-size: 1.8rem;
+    @media (max-width:$med-screen) {
+        font-size: 1.5rem;
+    } 
 }
 
 @mixin Page_header {
@@ -19,6 +26,9 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    @media(max-width:$med-screen) {
+        font-size: 3.0rem;
+    }
 }
 
 @mixin Main_heading {
@@ -26,18 +36,33 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    @media (max-width: $med-screen) {
+        font-size:2.3rem;
+    }
 }
 
 @mixin Sub_heading {
     font-size: 1.8rem;
     display: flex;
     align-content: center;
-    justify-content: center;    
+    justify-content: center;
+    @media(max-width:$med-screen) {
+        font-size: 1.5rem;
+    }
+
 }
 
 @mixin P_tag {
     padding: 20px 45px 0 45px;
     font-size: 1.5rem;
+    @media (max-width: $med-screen) {
+        font-size: 1.3rem;
+        padding: 20px 37px 0 37px;
+    }
+    @media (max-width:$mobile) {
+        font-size: 1rem;
+        padding: 20px 30px 0 30px;
+    }
 }
 
 @mixin list_container{
@@ -49,6 +74,9 @@
 @mixin list_item{
     font-size: 1.3rem;
     margin: auto;
+    @media(max-width:$med-screen) {
+        font-size: 1rem;   
+    }
 }
 
 @mixin name_card{
