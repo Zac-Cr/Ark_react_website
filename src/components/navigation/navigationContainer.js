@@ -3,6 +3,8 @@ import {NavLink} from 'react-router-dom';
 import Logo from '../../../static/assets/logos/logo_white.png';
 import Leaf from '../../../static/assets/logos/leaf_white.png';
 import Dropdown from '../features/dropdown';
+
+
 export default class NavigationContainer extends Component{
     constructor(){
         super();
@@ -16,7 +18,7 @@ export default class NavigationContainer extends Component{
                 <div className="center_header">
                     <NavLink exact to="/">Home</NavLink>
                     <NavLink to="/ecoraster"> Ecoraster </NavLink>
-                    {/* <button>Products</button> */}
+                    {/*  <NavLink to="/products">Products</NavLink> */}
                     <NavLink to="/finished-projects">Finished Projects</NavLink>
                     <NavLink to="/about-us">About Us</NavLink>
                     <NavLink to="/contact-us">Contact Us</NavLink>

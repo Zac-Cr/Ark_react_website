@@ -7,6 +7,7 @@
 @import'./page_styles/ecoraster.scss';
 @import'./page_styles/contact.scss';
 @import'./page_styles/finished_proj.scss';
+@import'./page_styles/dropdown.scss';
 
 body{
     margin: 0;
@@ -31,3 +32,8 @@ p{
 .middle_column{
     @include middle_column();
 }
+
+.dropdown{
+    
+}
+
